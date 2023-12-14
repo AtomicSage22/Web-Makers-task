@@ -19,7 +19,7 @@ import { Pagination } from 'swiper/modules';
 const Work = () => {
     return (
         <div className=''>
-            <div className='flex justify-between h-[50vh] w-full mt-20 mb-10'>
+            <div className='flex justify-between h-[15vh] sm:h-[20vh] md:h-[28vh] lg:h-[38vh] xl:h-[50vh] w-full mt-20 mb-10'>
                 <img src={frame12} alt="" />
                 <img src={frame9} alt="" />
                 <img src={frame10} alt="" />
