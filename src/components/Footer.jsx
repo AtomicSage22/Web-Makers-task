@@ -18,14 +18,14 @@ const Footer = () => {
                 <h3 className="text-gray-700 text-2xl font-semibold mt-5">
                     UniCraft
                 </h3>
-                <p className="text-gray-400 text-xl w-[22%] my-2 font-medium">
+                <p className="text-gray-400 text-xl w-full sm:w-full md:w-[80%] lg:w-[40%] xl:w-[22%] my-4 font-medium">
                         Design amazing digital experiences that create more happy in the world.
                 </p>
-                <div className="mt-5 pb-5 flex justify-between">
-                    <p className="text-gray-400 text-lg">
+                <div className="mt-5 pb-5 flex justify-between gap-6">
+                    <p className="text-gray-400 text-lg w-[60%]">
                         © 2077 Untitled UI. All rights reserved.
                     </p>
-                    <div className="flex gap-5">
+                    <div className="flex gap-5 flex-wrap">
                         <img src={twitter} alt="" />
                         <img src={linkedin} alt="" />
                         <img src={facebook} alt="" />

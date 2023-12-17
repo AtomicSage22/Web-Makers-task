@@ -6,7 +6,7 @@ const Nav = () => {
             <div>
                 <h3 className="font-medium text-2xl">UniCraft</h3>
             </div>
-            <div className="space-x-6 font-medium text-xl">
+            <div className=" font-medium text-xl hidden sm:hidden md:flex lg:flex xl:flex gap-6">
                 <a href="#how-it-works" className="hover:underline">How it works</a>
                 <a href="#pricing" className="hover:underline">Pricing</a>
                 <a href="#faq" className="hover:underline">FAQ</a>

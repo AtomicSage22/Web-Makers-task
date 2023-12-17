@@ -8,13 +8,13 @@ const Contact = () => {
         }}
         className="flex flex-col items-center justify-center gap-4 py-16"
     >
-        <h1 className="text-7xl text-gray-900 font-black mb-2">
+        <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl text-center text-gray-900 font-black mb-2">
             No long-term contracts.
         </h1>
-        <h1 className="text-7xl text-gray-900 font-black mb-2">
+        <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl text-center text-gray-900 font-black mb-2">
             No catches. Simple
         </h1>
-        <p className="mb-4 text-xl font-medium text-gray-500">
+        <p className="mb-4 text-xl text-center font-medium text-gray-500">
             Start your 30-day free trial. Cancel anytime.
         </p>
         <button className='bg-gray-800 text-white text-xl font-semibold py-4 px-14 rounded-lg'>

@@ -57,7 +57,7 @@ const Pricing = () => {
                 Plain is made for your entire company. Only pay for users that actually message customers. Everyone else is free, forever.
             </p>
         </div>
-        <div className='flex gap-5'>
+        <div className='flex justify-center gap-5 flex-wrap'>
             <Plan 
                 title='Freebie'
                 desc='Ideal for individuals who need quick access to basic features.'

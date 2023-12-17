@@ -8,17 +8,17 @@ import spotify from '../assets/spotify.svg'
 
 const Companies = () => {
   return (
-    <div className='w-[70%] mx-auto mt-20 text-gray-400'>
+    <div className='w-[70%] mx-auto mt-20 mb-10 text-gray-400'>
         <p className='text-center  mb-6'>
             Trusted By 250+ Companies
         </p>
-      <div className='flex justify-around w-full'>
-        <img src={zapier} alt="zapier" />
-        <img src={slack} alt="slack" />
-        <img src={adobe} alt="adobe" />
-        <img src={amazon} alt="amazon" />
-        <img src={zoom} alt="zoom" />
-        <img src={spotify} alt="spotify" />
+      <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around gap-6 sm:gap-6 md:gap-2 lg:gap-2 xl:gap-2 w-full'>
+        <img src={zapier} className='h-10' alt="zapier" />
+        <img src={slack} className='h-10' alt="slack" />
+        <img src={adobe} className='h-10' alt="adobe" />
+        <img src={amazon} className='h-10' alt="amazon" />
+        <img src={zoom} className='h-5' alt="zoom" />
+        <img src={spotify} className='h-10' alt="spotify" />
       </div>
     </div>
   )

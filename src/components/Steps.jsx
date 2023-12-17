@@ -12,7 +12,7 @@ const Steps = () => {
         <p className='text-gray-600 font-medium my-2 text-xl'>
             Premium designs, unlimited requests, super fast delivery, for one flat monthly fee.
         </p>
-        <div className='flex justify-around mt-12 mb-14'>
+        <div className='flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row justify-around items-center mt-12 mb-14'>
             <div className='relative w-[25%]'>
                 <h1 className='font-extrabold text-transparent text-[16rem] bg-clip-text bg-gradient-to-bl from-[#D8B4FE] to-[#D8B4FE00] absolute top-[50%] left-[50%] -translate-y-1/2 -translate-x-1/2 -z-10'>
                     1
@@ -24,7 +24,7 @@ const Steps = () => {
                     Subscribe to a plan & you&apos;ll get an instant access to your private Slack channel.
                 </p>
             </div>
-            <img src={arrow} alt="" />
+            <img src={arrow} className='hidden sm:hidden md:block lg:block xl:block' alt="" />
             <div className='relative w-[20%]'>
                 <h1 className='font-extrabold text-transparent text-[16rem] bg-clip-text bg-gradient-to-bl from-[#D8B4FE] to-[#D8B4FE00] absolute top-[50%] left-[50%] -translate-y-1/2 -translate-x-1/2 -z-10'>
                     2
@@ -36,7 +36,7 @@ const Steps = () => {
                     Submit any number of requests. We&apos;ll work through them, one at a time, ensuring consistent updates every 24-48 hours
                 </p>
             </div>
-            <img src={arrow} alt="" />
+            <img src={arrow} className='hidden sm:hidden md:block lg:block xl:block' alt="" />
             <div className='relative w-[20%]'>
                 <h1 className='font-extrabold text-transparent text-[16rem] bg-clip-text bg-gradient-to-bl from-[#D8B4FE] to-[#D8B4FE00] absolute top-[50%] left-[50%] -translate-y-1/2 -translate-x-1/2 -z-10'>
                     3

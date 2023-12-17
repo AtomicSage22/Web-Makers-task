@@ -9,7 +9,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
  
  const Questions = () => {
    return (
-        <div className='w-[60%] mx-auto'>
+        <div className='w-full sm:w-full md:w-[70%] lg:w-[60%] xl:w-[60%] mx-auto'>
             <h2 className='text-6xl font-semibold text-center text-gray-900'>
                 Frequently asked questions
             </h2>
