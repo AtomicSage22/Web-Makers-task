@@ -1,5 +1,5 @@
 import React from 'react'
-import Sisphus from '../assets/sisphus.png'
+import Sisphus from '../assets/Sisphus.png'
 import Avatar from '@mui/material/Avatar';
 import AvatarPic from '../assets/avatar.png'
 
