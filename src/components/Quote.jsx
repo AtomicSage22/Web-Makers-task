@@ -1,7 +1,7 @@
 import React from 'react'
 import Sisphus from '../assets/Sisphus.png'
 import Avatar from '@mui/material/Avatar';
-import AvatarPic from '../assets/avatar.png'
+import AvatarPic from '../assets/Avatar.png'
 
 const Quote = () => {
     return (
