@@ -27,7 +27,7 @@ const Work = () => {
                 <img src={frame13} alt="" />
             </div>
             <div className='flex justify-center'>
-                <button className="text-gray-600 font-normal py-2 px-6 border-gray-600 border rounded">
+                <button className="text-gray-600 text-xl font-semibold py-3 px-12 border-gray-600 border rounded-lg">
                     View recent work
                 </button>
             </div>

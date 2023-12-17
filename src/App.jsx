@@ -5,6 +5,11 @@ import "./App.css";
 import "./index.css";
 import Work from "./components/work";
 import Steps from "./components/Steps";
+import Quote from "./components/Quote";
+import Pricing from "./components/Pricing";
+import Questions from "./components/Questions";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +20,11 @@ function App() {
       <Companies />
       <Work />
       <Steps/>
+      <Quote />
+      <Pricing />
+      <Questions />
+      <Contact />
+      <Footer />
     </main>
   );
 }

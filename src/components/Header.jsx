@@ -10,10 +10,12 @@ function Header() {
                 
             }}>
             <Nav />
-            <div className='flex flex-col items-center gap-7 w-[80%] mx-auto text-center mt-6'>
-                <h1 className='font-bold text-6xl'>Elevate Your Presence with Seamless Design and Innovation.</h1>
-                <p>From strategic planning to digital presence, we&apos;re your dedicated partner in achieving solo success.</p>
-                <button className='bg-gray-800 text-white w-44 h-12 rounded-md'>
+            <div className='flex flex-col items-center gap-7 w-[60%] mx-auto text-center mt-28'>
+                <h1 className='font-black text-7xl text-gray-800'>Elevate Your Presence with Seamless Design and Innovation.</h1>
+                <p className='text-xl text-gray-600 font-medium'>
+                    From strategic planning to digital presence, we&apos;re your dedicated partner in achieving solo success.
+                </p>
+                <button className='bg-gray-800 text-white text-xl font-semibold py-4 px-10 rounded-md'>
                     View Pricing
                 </button>
             </div>

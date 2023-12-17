@@ -4,15 +4,15 @@ const Nav = () => {
     return (
         <nav className="flex justify-between px-12 py-5 w-full">
             <div>
-                <h3 className="font-medium text-xl">UniCraft</h3>
+                <h3 className="font-medium text-2xl">UniCraft</h3>
             </div>
-            <div className="space-x-6">
+            <div className="space-x-6 font-medium text-xl">
                 <a href="#how-it-works" className="hover:underline">How it works</a>
                 <a href="#pricing" className="hover:underline">Pricing</a>
                 <a href="#faq" className="hover:underline">FAQ</a>
             </div>
             <div>
-                <button className="text-gray-600 font-normal py-2 px-6 border-gray-600 border rounded">
+                <button className="text-gray-600 font-medium py-3 px-8 border-gray-600 border rounded-lg text-xl">
                     Contact Us
                 </button>
             </div>

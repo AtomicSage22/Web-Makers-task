@@ -9,7 +9,7 @@ import spotify from '../assets/spotify.svg'
 const Companies = () => {
   return (
     <div className='w-[70%] mx-auto mt-20 text-gray-400'>
-        <p className='text-center text-sm mb-6'>
+        <p className='text-center  mb-6'>
             Trusted By 250+ Companies
         </p>
       <div className='flex justify-around w-full'>
