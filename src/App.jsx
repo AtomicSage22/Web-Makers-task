@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Companies from "./components/Companies";
 import "./App.css";
 import "./index.css";
-import Work from "./components/work";
+import Work from "./components/Work";
 import Steps from "./components/Steps";
 import Quote from "./components/Quote";
 import Pricing from "./components/Pricing";
